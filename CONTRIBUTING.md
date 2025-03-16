@@ -86,6 +86,46 @@ After running the respective command, you should see an output similar to the be
 
 By default, Tabby will start on `localhost:8080` and serve requests.
 
+## Building with CMake and Ninja
+
+In addition to Cargo, you can also build Tabby using CMake and Ninja, which may be more convenient for certain use cases:
+
+### Prerequisites
+
+- CMake (version 3.15 or later)
+- Ninja build system
+
+### Building on Linux/macOS
+
+```bash
+# Basic build
+./scripts/build_cmake.sh
+
+# Build with CUDA support
+./scripts/build_cmake.sh --cuda
+
+# Build with ROCm support
+./scripts/build_cmake.sh --rocm
+
+# Debug build
+./scripts/build_cmake.sh --debug
+```
+
+### Building on Windows
+
+```powershell
+# Basic build
+.\scripts\build_cmake.ps1
+
+# Build with CUDA support
+.\scripts\build_cmake.ps1 --cuda
+
+# Debug build
+.\scripts\build_cmake.ps1 --debug
+```
+
+The CMake build system will integrate with the existing Rust components by calling `cargo build` as part of the build process.
+
 ## Project Layout
 
 Tabby is broken up into several crates, each responsible for a different part of the functionality. These crates fall into two categories: Fully open source features, and enterprise features. All open-source feature crates are located in the `/crates` folder in the repository root, and all enterprise feature crates are located in `/ee`.
