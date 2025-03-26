@@ -513,7 +513,7 @@
     "get-installed-path": "^4.0.8",
     "mocha": "^10.2.0",
     "object-hash": "^3.0.0",
-    "ovsx": "^0.9.5",
+    "ovsx": "^0.10.1",
     "prettier": "^3.0.0",
     "semver": "^7.6.0",
     "tabby-agent": "workspace:*",
