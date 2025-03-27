@@ -22,6 +22,78 @@ function Add-ToSessionPath {
     }
 }
 
+# Function to verify CMake installation is working properly
+function Test-CMake {
+    Write-Host "Verifying CMake installation..." -ForegroundColor Cyan
+    
+    try {
+        $cmakeVersion = & cmake --version | Select-Object -First 1
+        Write-Host "✓ CMake is installed: $cmakeVersion" -ForegroundColor Green
+        
+        # Create a simple test project to verify CMake works properly
+        $testDir = Join-Path $env:TEMP "cmake_test_$(Get-Random)"
+        New-Item -ItemType Directory -Path $testDir -Force | Out-Null
+        Push-Location $testDir
+        
+        # Create minimal CMake test files
+        @"
+cmake_minimum_required(VERSION 3.15)
+project(cmake_test)
+add_executable(test_app main.cpp)
+"@ | Out-File -FilePath "CMakeLists.txt" -Encoding utf8
+
+        @"
+#include <iostream>
+int main() {
+    std::cout << "CMake test successful!" << std::endl;
+    return 0;
+}
+"@ | Out-File -FilePath "main.cpp" -Encoding utf8
+
+        # Create and enter build directory
+        New-Item -ItemType Directory -Path "build" -Force | Out-Null
+        Set-Location "build"
+        
+        # Test CMake configuration
+        Write-Host "Testing CMake configuration..." -ForegroundColor Cyan
+        & cmake .. -G "Ninja"
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "✗ CMake configuration failed" -ForegroundColor Red
+            Pop-Location
+            Remove-Item -Path $testDir -Recurse -Force -ErrorAction SilentlyContinue
+            return $false
+        }
+        
+        Write-Host "✓ CMake configuration successful" -ForegroundColor Green
+        Pop-Location
+        Remove-Item -Path $testDir -Recurse -Force -ErrorAction SilentlyContinue
+        return $true
+    }
+    catch {
+        Write-Host "✗ CMake verification failed: $_" -ForegroundColor Red
+        return $false
+    }
+}
+
+# Function to set environment variables for CMake to be found by build scripts
+function Set-CMakeEnvironment {
+    param (
+        [string]$CMakePath
+    )
+    
+    # Set environment variables that Cargo's cmake crate looks for
+    $env:CMAKE = Join-Path $CMakePath "cmake.exe"
+    $env:CMAKE_PREFIX_PATH = $CMakePath
+    $env:CMAKE_GENERATOR = "Ninja"
+    
+    # These variables are also checked by some build systems
+    $env:CMAKE_x86_64_pc_windows_msvc = $env:CMAKE
+    $env:CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = $env:CMAKE_PREFIX_PATH
+    $env:CMAKE_GENERATOR_x86_64_pc_windows_msvc = $env:CMAKE_GENERATOR
+    
+    Write-Host "Set CMake environment variables for build scripts" -ForegroundColor Green
+}
+
 # Detect installed tools
 $cmakePath = $null
 $ninjaPath = $null
@@ -65,9 +137,45 @@ if (Test-Path -Path "$env:USERPROFILE\.cargo\bin") {
 if ($cmakePath) {
     Add-ToSessionPath $cmakePath
     Write-Host "Found CMake at: $cmakePath" -ForegroundColor Green
+    
+    # Set environment variables for CMake
+    Set-CMakeEnvironment $cmakePath
+    
+    # Verify CMake works properly
+    if (-not (Test-CMake)) {
+        Write-Host "CMake was found but verification failed. Try reinstalling CMake." -ForegroundColor Red
+        Write-Host "Download from: https://cmake.org/download/" -ForegroundColor Yellow
+    }
 } else {
     Write-Host "CMake not found. Please install CMake manually." -ForegroundColor Red
     Write-Host "Download from: https://cmake.org/download/" -ForegroundColor Yellow
+    
+    # Attempt to install CMake if missing
+    $installCMake = Read-Host "Would you like to attempt automatic CMake installation? (y/n)"
+    if ($installCMake -eq 'y') {
+        try {
+            Write-Host "Attempting to install CMake..." -ForegroundColor Yellow
+            Invoke-Expression "$PSScriptRoot\install-cmake.ps1"
+            
+            # Try finding CMake again
+            foreach ($path in $possiblePaths) {
+                if (Test-Path -Path (Join-Path $path "cmake.exe")) {
+                    $cmakePath = $path
+                    Add-ToSessionPath $cmakePath
+                    Set-CMakeEnvironment $cmakePath
+                    Write-Host "Successfully installed CMake at: $cmakePath" -ForegroundColor Green
+                    break
+                }
+            }
+            
+            if (-not $cmakePath) {
+                Write-Host "CMake installation attempted but could not find CMake executable" -ForegroundColor Red
+            }
+        }
+        catch {
+            Write-Host "Failed to install CMake: $_" -ForegroundColor Red
+        }
+    }
 }
 
 if ($ninjaPath) {
@@ -294,6 +402,18 @@ echo Using Ninja from: %PYTHON_SCRIPTS%\ninja.exe
 "%PYTHON_SCRIPTS%\ninja.exe" %*
 "@ | Out-File -FilePath $directNinjaScript -Encoding ascii
 
+# Create a direct script to run cmake with debug info
+$cmakeDebugScript = "c:\Users\casey\Cloud-Drive_higuy.vids@gmail.com\GITHUB\tabby\cmake-debug.bat"
+@"
+@echo off
+echo ===== CMake Diagnostic Wrapper =====
+echo Current PATH: %PATH%
+echo.
+echo Executing: cmake %*
+echo.
+cmake %*
+"@ | Out-File -FilePath $cmakeDebugScript -Encoding ascii
+
 Write-Host ""
 Write-Host "====== Setup Complete ======" -ForegroundColor Cyan
 
@@ -303,6 +423,7 @@ Write-Host "- WindowsBuild.bat         - Standard release build" -ForegroundColo
 Write-Host "- WindowsDebugBuild.bat    - Debug build" -ForegroundColor Yellow
 Write-Host "- WindowsCudaBuild.bat     - CUDA-enabled build" -ForegroundColor Yellow
 Write-Host "- ninja-build.bat          - Direct Ninja wrapper using Python installation" -ForegroundColor Yellow
+Write-Host "- cmake-debug.bat          - CMake diagnostic wrapper" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "To install the required tools manually:" -ForegroundColor Cyan
 Write-Host "1. CMake: https://cmake.org/download/" 
@@ -328,4 +449,15 @@ if (Test-Command "cmake" -and Test-Command "ninja" -and Test-Command "cargo") {
     }
     
     Write-Host "Please install missing tools and restart your PowerShell session." -ForegroundColor Red
+}
+
+# Show CMake environment variables for debugging
+if ($cmakePath) {
+    Write-Host ""
+    Write-Host "CMake Environment Variables (for Cargo builds):" -ForegroundColor Cyan
+    Write-Host "CMAKE = $env:CMAKE"
+    Write-Host "CMAKE_PREFIX_PATH = $env:CMAKE_PREFIX_PATH"
+    Write-Host "CMAKE_GENERATOR = $env:CMAKE_GENERATOR"
+    Write-Host ""
+    Write-Host "To build with these settings permanently, you may add these environment variables to your system" -ForegroundColor Yellow
 }

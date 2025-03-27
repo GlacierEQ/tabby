@@ -1,0 +1,2119 @@
+Setting up environment...
+====== Tabby Windows Development Environment Setup ======
+Added C:\Program Files\CMake\bin to session PATH
+Found CMake at: C:\Program Files\CMake\bin
+Added C:\Users\casey\AppData\Roaming\Python\Python313\Scripts to session PATH
+Found Ninja at: C:\Users\casey\AppData\Roaming\Python\Python313\Scripts
+Found Cargo at: C:\Users\casey\.cargo\bin
+
+====== Setup Complete ======
+
+Simple batch files have been created for building Tabby:
+- WindowsBuild.bat         - Standard release build
+- WindowsDebugBuild.bat    - Debug build
+- WindowsCudaBuild.bat     - CUDA-enabled build
+- ninja-build.bat          - Direct Ninja wrapper using Python installation
+
+To install the required tools manually:
+1. CMake: https://cmake.org/download/
+2. Ninja: pip install ninja
+3. Rust:  https://rustup.rs/
+
+After installing, you may need to restart your PowerShell session
+All required tools are now available in this session!
+'return' is not recognized as an internal or external command,
+operable program or batch file.
+[36mBuild Options[0m
+
+Choose a build option:
+[36m==================================[0m
+ 1. [32mBuild Release Version[0m
+ 2. [32mBuild Debug Version[0m
+ 3. [32mBuild with CUDA Support[0m
+ 4. [32mBuild with Optimal Parallelism[0m
+ 5. [32mBuild All Configurations[0m
+ 0. [33mBack to Main Menu[0m
+
+Enter your choice (0-5): 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m
+
+Enter your choice (0-6): 
+[36m=== Quick Start ===[0m
+Performing environment setup, building release version, and running...
+This will be logged to logs\tabby-startup-20250318-130044.log
+The process cannot access the file because it is being used by another process.
+[31mSetup failed Check logs\tabby-startup-20250318-130044.log for details[0m
+Press any key to continue . . . 
+[36mTabby Startup Manager[0m
+
+Choose an option:
+[36m==================================[0m
+ 1. [32mQuick Start[0m (Setup, Build Release, Run)
+ 2. [32mSetup Environment[0m (Install Tools)
+ 3. [32mBuild Options[0m
+ 4. [32mRun Options[0m
+ 5. [32mClean Build Directories[0m
+ 6. [32mAdvanced Options[0m
+ 0. [33mExit[0m

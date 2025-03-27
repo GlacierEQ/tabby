@@ -1,10 +1,18 @@
 # Script to install Ninja build tool for Windows
 
-Write-Host "Installing Ninja build system..." -ForegroundColor Cyan
+param (
+    [switch]$Quiet
+)
+
+if (-not $Quiet) {
+    Write-Host "Installing Ninja build system..." -ForegroundColor Cyan
+}
 
 # Try to install via pip first
 try {
-    Write-Host "Attempting to install Ninja via pip..." -ForegroundColor Yellow
+    if (-not $Quiet) {
+        Write-Host "Attempting to install Ninja via pip..." -ForegroundColor Yellow
+    }
     pip install --user ninja
     
     # Check if installation succeeded
@@ -13,11 +21,15 @@ try {
     
     if ($ninjaExe) {
         $ninjaPath = $ninjaExe.DirectoryName
-        Write-Host "Successfully installed Ninja via pip at: $ninjaPath" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Successfully installed Ninja via pip at: $ninjaPath" -ForegroundColor Green
+        }
         
         # Add to session PATH
         $env:PATH = "$ninjaPath;$env:PATH"
-        Write-Host "Added Ninja to PATH for current session" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Added Ninja to PATH for current session" -ForegroundColor Green
+        }
         
         # Create a batch file to use this Ninja
         $ninjaWrapperPath = "C:\Users\casey\Cloud-Drive_higuy.vids@gmail.com\GITHUB\tabby\ninja.bat"
@@ -27,16 +39,22 @@ set PATH=$($ninjaPath.Replace('\', '\\'));%PATH%
 "$($ninjaExe.FullName)" %*
 "@ | Out-File -FilePath $ninjaWrapperPath -Encoding ascii
         
-        Write-Host "Created wrapper batch file at: $ninjaWrapperPath" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Created wrapper batch file at: $ninjaWrapperPath" -ForegroundColor Green
+        }
         return $true
     }
 } catch {
-    Write-Host "Failed to install Ninja via pip: $_" -ForegroundColor Red
+    if (-not $Quiet) {
+        Write-Host "Failed to install Ninja via pip: $_" -ForegroundColor Red
+    }
 }
 
 # If pip install failed, download binary directly
 try {
-    Write-Host "Attempting to download Ninja binary directly..." -ForegroundColor Yellow
+    if (-not $Quiet) {
+        Write-Host "Attempting to download Ninja binary directly..." -ForegroundColor Yellow
+    }
     
     # Prepare directory
     $ninjaDir = "C:\Users\casey\Cloud-Drive_higuy.vids@gmail.com\GITHUB\tabby\tools\ninja"
@@ -54,11 +72,15 @@ try {
     
     # Check if extraction worked
     if (Test-Path (Join-Path $ninjaDir "ninja.exe")) {
-        Write-Host "Successfully downloaded and extracted Ninja to: $ninjaDir" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Successfully downloaded and extracted Ninja to: $ninjaDir" -ForegroundColor Green
+        }
         
         # Add to session PATH
         $env:PATH = "$ninjaDir;$env:PATH"
-        Write-Host "Added Ninja to PATH for current session" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Added Ninja to PATH for current session" -ForegroundColor Green
+        }
         
         # Create a batch file to use this Ninja
         $ninjaWrapperPath = "C:\Users\casey\Cloud-Drive_higuy.vids@gmail.com\GITHUB\tabby\ninja.bat"
@@ -68,13 +90,19 @@ set PATH=$($ninjaDir.Replace('\', '\\'));%PATH%
 "$ninjaDir\ninja.exe" %*
 "@ | Out-File -FilePath $ninjaWrapperPath -Encoding ascii
         
-        Write-Host "Created wrapper batch file at: $ninjaWrapperPath" -ForegroundColor Green
+        if (-not $Quiet) {
+            Write-Host "Created wrapper batch file at: $ninjaWrapperPath" -ForegroundColor Green
+        }
         return $true
     }
 } catch {
-    Write-Host "Failed to download and extract Ninja: $_" -ForegroundColor Red
+    if (-not $Quiet) {
+        Write-Host "Failed to download and extract Ninja: $_" -ForegroundColor Red
+    }
 }
 
-Write-Host "Failed to install Ninja automatically." -ForegroundColor Red
-Write-Host "Please download and install manually from: https://github.com/ninja-build/ninja/releases" -ForegroundColor Yellow
+if (-not $Quiet) {
+    Write-Host "Failed to install Ninja automatically." -ForegroundColor Red
+    Write-Host "Please download and install manually from: https://github.com/ninja-build/ninja/releases" -ForegroundColor Yellow
+}
 return $false
